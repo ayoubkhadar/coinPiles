@@ -1,4 +1,4 @@
-# coinPiles
+# Coin Piles
 
 # Problem
 
@@ -9,14 +9,18 @@ If the collection has piles of [4,5,8] coins and the amount to be removed from e
 # Input Format
 
 The first line contains an integer x, the amount of integers in the array arr.
+
 The second line contains an integer n, the amount of coins removed from each pile.
+
 The third line contains an array arr, an unsorted array of the amount of coins in each pile.
 
 
 # Constraints
 
 0 < n < 10000
+
 0 < x < 10000
+
 0 < arr[i] < 10000
 
 
@@ -27,11 +31,14 @@ return 1 if the given arr will be unchanged, return 0
 # Sample Input 0
 
 4
+
 1
+
 1 2 3 4
 # Sample Output 0
 
 1
+
 # Explanation 0
 
 When you remove one coin off of each pile, the new collection contains piles of [1,2,3,4] coins
@@ -39,8 +46,11 @@ When you remove one coin off of each pile, the new collection contains piles of 
 # Sample Input 1
 
 3
+
 2
+
 4 5 8
+
 # Sample Output 1
 
 0
